@@ -1,0 +1,27 @@
+using System;
+
+namespace BekMod
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x = Convert.ToDouble(Console.ReadLine());
+            double n = Convert.ToDouble(Console.ReadLine());
+            double y = 0;
+
+            if (x < n)
+            {
+                y = Math.Log(x) - n;
+            }
+            else if (x == n)
+            {
+                y = Math.Log(x) - n;
+            }
+            else
+            {
+                y = Math.Cos(n * x);
+            }
+        }
+    }
+}
