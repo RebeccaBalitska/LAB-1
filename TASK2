@@ -1,0 +1,25 @@
+using System;
+
+namespace BekMod
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a = Convert.ToDouble(Console.ReadLine());
+            double b = Convert.ToDouble(Console.ReadLine());
+            double c = Convert.ToDouble(Console.ReadLine());
+            double d = Convert.ToDouble(Console.ReadLine());
+
+            if (a >= 1 && a <= 2 && a >= c && a <= d)
+            {
+                Console.WriteLine("a належить");
+            }
+
+            if (b >= 1 && b <= 2 && b >= c && b <= d)
+            {
+                Console.WriteLine("b належить");
+            }
+        }
+    }
+}
